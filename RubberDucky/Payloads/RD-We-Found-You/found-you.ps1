@@ -145,10 +145,10 @@ $k=[Math]::Ceiling(100/2);$o=New-Object -ComObject WScript.Shell;for($i = 0;$i -
 
 $s=New-Object -ComObject SAPI.SpVoice
 $s.Rate = -2
-$s.Speak("We found you $FN")
-$s.Speak("We know where you are")
-$s.Speak("We are everywhere")
-$s.Speak("Expect us")
+$s.Speak("Te encontramos $FN")
+$s.Speak("Sabemos todo de ti")
+$s.Speak("Y lo compartiremos con el resto del mundo")
+$s.Speak("Prepárate para lo que viene")
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------
